@@ -21,8 +21,7 @@
   },
   "homepage": "https://github.com/lotmek/eslint-plugin-lotmek#readme",
   "dependencies": {
-    "@typescript-eslint/types": "^8.6.0",
-    "@typescript-eslint/utils": "^8.6.0",
+    "typescript-eslint": "^8.6.0",
     "eslint": "^9.11.0"
   },
   "devDependencies": {
