@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-lotmek",
+  "version": "0.0.1",
+  "description": "Custom ESLint plugin",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotmek/eslint-plugin-lotmek.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Lotfi Meklati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotmek/eslint-plugin-lotmek/issues"
+  },
+  "homepage": "https://github.com/lotmek/eslint-plugin-lotmek#readme",
+  "dependencies": {
+    "@typescript-eslint/types": "^8.6.0",
+    "@typescript-eslint/utils": "^8.6.0",
+    "eslint": "^9.11.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.5.5",
+    "@typescript-eslint/rule-tester": "^8.6.0",
+    "eslint-doc-generator": "^1.7.1",
+    "typescript": "^5.6.2"
+  }
+}
