@@ -4,7 +4,7 @@
   "description": "Custom ESLint plugin",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsup src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,14 +21,15 @@
   },
   "homepage": "https://github.com/lotmek/eslint-plugin-lotmek#readme",
   "dependencies": {
-    "typescript-eslint": "^8.6.0",
-    "eslint": "^9.11.0"
+    "eslint": "^9.11.0",
+    "typescript-eslint": "^8.6.0"
   },
   "devDependencies": {
     "@types/eslint": "^9.6.1",
     "@types/node": "^22.5.5",
     "@typescript-eslint/rule-tester": "^8.6.0",
     "eslint-doc-generator": "^1.7.1",
+    "tsup": "^8.3.0",
     "typescript": "^5.6.2"
   }
 }
